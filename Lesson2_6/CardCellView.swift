@@ -14,6 +14,7 @@ class CardCellView: UITableViewCell {
     lazy var mainView: UIView = {
         $0.backgroundColor = .systemGray6
         $0.layer.cornerRadius = 30
+        $0.clipsToBounds = true
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.addSubviews(titulLabel, cardImage, titleLabel, extextLabel, mainTextLabel, cardButton)
         return $0
@@ -47,6 +48,7 @@ class CardCellView: UITableViewCell {
     lazy var cardImage: UIImageView = {
         $0.contentMode = .scaleAspectFill
         $0.layer.cornerRadius = 30
+        $0.clipsToBounds = true
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
     }(UIImageView())
@@ -108,7 +110,8 @@ class CardCellView: UITableViewCell {
             cardButton.leadingAnchor.constraint(equalTo: mainView.leadingAnchor, constant: 15),
             cardButton.topAnchor.constraint(equalTo: mainTextLabel.bottomAnchor, constant: 30),
             cardButton.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -15),
-            cardButton.heightAnchor.constraint(equalToConstant: 50)
+            cardButton.heightAnchor.constraint(equalToConstant: 50),
+            cardButton.bottomAnchor.constraint(equalTo: mainView.bottomAnchor, constant: -15)
         ])
     }
     
