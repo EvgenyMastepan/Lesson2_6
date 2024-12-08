@@ -12,6 +12,8 @@
 		750291962D0094BF00619C5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750291952D0094BF00619C5B /* ViewController.swift */; };
 		7502919B2D0094C600619C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7502919A2D0094C600619C5B /* Assets.xcassets */; };
 		7502919E2D0094C600619C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7502919C2D0094C600619C5B /* LaunchScreen.storyboard */; };
+		750291A62D04102B00619C5B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750291A52D04102A00619C5B /* Model.swift */; };
+		750291A82D0588F900619C5B /* CardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750291A72D0588F900619C5B /* CardCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7502919A2D0094C600619C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7502919D2D0094C600619C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7502919F2D0094C600619C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750291A52D04102A00619C5B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		750291A72D0588F900619C5B /* CardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				750291912D0094BF00619C5B /* AppDelegate.swift */,
 				750291932D0094BF00619C5B /* SceneDelegate.swift */,
 				750291952D0094BF00619C5B /* ViewController.swift */,
+				750291A72D0588F900619C5B /* CardCellView.swift */,
+				750291A52D04102A00619C5B /* Model.swift */,
 				7502919A2D0094C600619C5B /* Assets.xcassets */,
 				7502919C2D0094C600619C5B /* LaunchScreen.storyboard */,
 				7502919F2D0094C600619C5B /* Info.plist */,
@@ -137,6 +143,8 @@
 				750291962D0094BF00619C5B /* ViewController.swift in Sources */,
 				750291922D0094BF00619C5B /* AppDelegate.swift in Sources */,
 				750291942D0094BF00619C5B /* SceneDelegate.swift in Sources */,
+				750291A82D0588F900619C5B /* CardCellView.swift in Sources */,
+				750291A62D04102B00619C5B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
